@@ -5,74 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tasnimul Alam Taz - Personal Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        <h1>Tasnimul Alam Taz</h1>
-        <p>Ph.D. Candidate in Computer Science | Bioinformatics | Machine Learning | Deep Learning</p>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        Tasnimul Alam Taz
     </header>
-    
-    <section id="about">
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        Welcome to My Professional Space
+    </section>
+
+    <section id="about" class="container">
         <h2>About Me</h2>
-        <p>Ph.D. candidate specializing in Bioinformatics, Genomics, and Machine Learning with a strong background in deep learning and explainable AI.</p>
+        <p>Ph.D. candidate in Computer Science, specializing in Bioinformatics, Machine Learning, and Explainable AI.</p>
     </section>
-    
-    <section id="education">
+
+    <section id="education" class="container">
         <h2>Education</h2>
-        <ul>
-            <li>Ph.D. in Computer Science - Wayne State University (2021 - 2026, Anticipated)</li>
-            <li>M.Sc. in Computer Science - Wayne State University (2023)</li>
-            <li>B.Sc. in Software Engineering - Daffodil International University (2021)</li>
-        </ul>
+        <div class="card">
+            <div class="card-item">
+                <h3>Ph.D. in Computer Science</h3>
+                <p>Wayne State University (2021 - 2026, Anticipated)</p>
+            </div>
+            <div class="card-item">
+                <h3>M.Sc. in Computer Science</h3>
+                <p>Wayne State University (2023)</p>
+            </div>
+            <div class="card-item">
+                <h3>B.Sc. in Software Engineering</h3>
+                <p>Daffodil International University (2021)</p>
+            </div>
+        </div>
     </section>
-    
-    <section id="skills">
+
+    <section id="skills" class="container">
         <h2>Technical Skills</h2>
-        <ul>
-            <li>Programming Languages: Java, R, Python, C++, BASH, SQL</li>
-            <li>Libraries: PyTorch, TensorFlow, Matplotlib, Bioconductor</li>
-            <li>Bioinformatics Tools: VCFtools, SAMtools, BAMtools, BCFtools, GATK</li>
-            <li>Machine Learning: CNNs, Autoencoders, Tensor Factorization, Transfer Learning</li>
-            <li>High-Performance Computing: HPC cluster management</li>
-        </ul>
+        <div class="card">
+            <div class="card-item"><h3>Programming</h3><p>Java, Python, R, C++, BASH, SQL</p></div>
+            <div class="card-item"><h3>Libraries</h3><p>PyTorch, TensorFlow, Matplotlib, Bioconductor</p></div>
+            <div class="card-item"><h3>Machine Learning</h3><p>CNNs, Autoencoders, Transfer Learning</p></div>
+        </div>
     </section>
-    
-    <section id="experience">
+
+    <section id="experience" class="container">
         <h2>Experience</h2>
-        <h3>Graduate Research Assistant, WSU</h3>
-        <p>Developed multiple bioinformatics frameworks, machine learning models for cancer research, and tensor-based explainable AI.</p>
-        <h3>Graduate Teaching Assistant, WSU</h3>
-        <p>Assisted in teaching courses, mentoring students, and guiding capstone projects.</p>
+        <div class="card">
+            <div class="card-item">
+                <h3>Graduate Research Assistant</h3>
+                <p>Developed AI-driven bioinformatics models for cancer research.</p>
+            </div>
+            <div class="card-item">
+                <h3>Graduate Teaching Assistant</h3>
+                <p>Guided students in research and programming courses.</p>
+            </div>
+        </div>
     </section>
-    
-    <section id="publications">
+
+    <section id="publications" class="container">
         <h2>Publications</h2>
         <ul>
-            <li><a href="https://www.sciencedirect.com/science/article/pii/S2352914823002563">Unveiling genetic variant-level biomarkers for aggressive prostate cancer</a></li>
-            <li><a href="https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.1015531/full">Biomarker-driven drug repurposing on biologically similar cancers</a></li>
+            <li><a href="https://www.sciencedirect.com/science/article/pii/S2352914823002563">Genetic Variant Biomarkers for Aggressive Prostate Cancer</a></li>
+            <li><a href="https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.1015531/full">Biomarker-driven Drug Repurposing</a></li>
         </ul>
     </section>
-    
-    <section id="contact">
+
+    <section id="contact" class="container">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:tasnimul@wayne.edu">tasnimul@wayne.edu</a></p>
         <p>GitHub: <a href="https://github.com/Tasnimul-SWE">Tasnimul-SWE</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/tasnimul-alam-taz/">Tasnimul Alam Taz</a></p>
         <p>Google Scholar: <a href="https://scholar.google.com/citations?hl=en&user=nGYGZeEAAAAJ">Scholar Profile</a></p>
     </section>
-    
+
     <footer>
-        <p>&copy; 2025 Tasnimul Alam Taz. All Rights Reserved.</p>
+        &copy; 2025 Tasnimul Alam Taz. All Rights Reserved.
     </footer>
+
 </body>
 </html>
